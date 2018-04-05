@@ -16,7 +16,6 @@ test:
 staging:
   <<: *default
   database: quasi-case_staging
-  username: quasi-case
   password: <%= ENV['QUASI-CASE_DATABASE_PASSWORD'] %>
 
 production:
